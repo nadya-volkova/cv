@@ -31,12 +31,12 @@ const Projects = () => {
                   <img
                     src={project.staticImage}
                     alt={project.title}
-                    className="w-full h-64 object-cover mb-4 transition-opacity duration-300 hover:opacity-0"
+                    className="w-full h-auto max-h-64 object-cover mb-4 transition-opacity duration-300 hover:opacity-0"
                   />
                   <img
                     src={project.gifImage}
                     alt={project.title}
-                    className="w-full h-64 object-cover mb-4 absolute inset-0 opacity-0 transition-opacity duration-300 hover:opacity-100"
+                    className="w-full h-auto max-h-64 object-cover mb-4 absolute inset-0 opacity-0 transition-opacity duration-300 hover:opacity-100"
                   />
                 </a>
               </div>
